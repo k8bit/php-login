@@ -1,5 +1,5 @@
 <?php
-include('/var/www/html/php-login/config/db.php'); # Database connection
+include('/var/www/html/php-login/db.php'); # Database connection
 
 # Error and success messages
 global $successMsg, $accountExists, $_unameError, $_emailError, $pwError;
